@@ -1,0 +1,150 @@
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	line-height:180%;
+}
+a:link{
+	color:#006abc;
+}
+a:hover{
+	color:#bc0000;
+}
+#header{
+	width:950px;
+	margin:0 auto;
+	border-bottom:1px solid #333;
+	overflow:auto;
+}
+	#header h1{
+		font-size:12px;
+		margin:0;
+	}
+	#page-title{
+		font-size:18px;
+		margin:10px 0;
+		float:left;
+		width:600px;
+	}
+	#adress{
+		margin:20px 0;
+		float:right;
+	}
+	#submenu{
+		overflow:auto;
+		line-height:60px;
+		margin:10px 0;
+	}
+	#submenu li{
+		background:url(images/header_menu_bg.png) no-repeat;
+		float:left;
+		list-style:none;
+		padding:0 20px;
+	}
+
+#content{
+	width:950px;
+	margin:10px auto;
+	overflow:auto;
+}
+#bil-img{
+	margin:0 0 20px 0;
+}
+
+#main{
+	float:right;
+	width:680px;
+	margin-left:20px;
+}
+	#main .left{
+		float:left;
+	}
+	#main h2{
+		border-left:3px solid #333;
+		margin:30px 0 10px 0;
+		padding:10px 0 8px 20px;
+	}
+	.index-menu{
+		overflow:auto;
+		margin-bottom:20px;
+	}
+	.index-menu img{
+		float:left;
+		padding-right:20px;
+	}
+	#shop-info{
+		overflow:auto;
+	}
+	#shop-desc{
+		float:left;
+		width:330px;
+		padding-right:10px;
+	}
+	#shop-info .shop-img{
+		float:right;
+	}
+	.campain h3{
+		border-bottom:1px dotted #333;
+		margin:20px 0 10px 0;
+		padding:10px 0;
+		font-size:16px;
+	}
+#pan{
+	margin:0;
+	padding:0 0 10px 0;
+	list-style:none;
+	line-height:25px;
+	overflow:auto;
+}
+	#pan li{
+		float:left;
+		padding-right:5px;
+		display: inline;
+	}
+#sidemenu{
+	float:left;
+	width:250px;
+}
+	#sidemenu .menu{
+		margin:0;
+		padding:0;
+		list-style:none;
+	}
+	#sidemenu .menu li{
+		border-bottom:1px dotted #666;
+		line-height:40px;
+	}
+	#sidemenu .menu li a{
+		background:url(images/menu_bg.png) no-repeat;
+		display:block;
+		padding-left:20px;
+	}
+	#sidemenu .menu li a:hover{
+		background:url(images/menu_bg_hover.png) no-repeat #fff8ed;
+	}
+	#sidemenu .end{
+		border-bottom:1px solid #666;
+	}
+#footer{
+	border-top:1px solid #333;
+	width:950px;
+	margin:0 auto;
+	clear:both;
+	text-align:right;
+	padding:10px 0;
+}
+	#footer a{
+		color:#333;
+		text-decoration:none;
+	}
+
+.clear{
+	clear:both;
+}
+.campaign-date{
+	font-weight:bold;
+}
+.campaign-description{
+	color:#666;
+	margin-top:10px;
+}
